@@ -1,0 +1,4 @@
+﻿1. Find the names of suppliers who supply some red parts for less than 100 money units.
+2. Find the names of suppliers such that there is a supplier with that name who supplies some red part for less than 100 money units and a supplier with that name who supplies some green part for less than 100 money units.
+3. Find the sIDs of suppliers who supply some red part for less than 100 money units and some green part for less than 100 money units, and return only sIDs of suppliers recorded in the table Supplier.
+4. Find the names of suppliers supplying some red parts for less than 100 money units and some green parts for less than 100 money units.
