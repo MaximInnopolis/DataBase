@@ -44,3 +44,4 @@ WHERE p.color IN ('Green', 'Red')
 GROUP BY c.sid, p.color
 
 --Find the sids of suppliers whose most expensive part costs $50 or more
+SELECT c.sid, MAX(c.cost) cost_cost FROM Catalog AS c WHERE c.cost >= 50 GROUP BY c.sid
