@@ -8,5 +8,5 @@ CREATE TABLE Order_ (
   itemName VARCHAR(255) NOT NULL,
   quant integer NOT NULL,
   price real NOT NULL,
-  PRIMARY KEY("orderId", "itemId")
+  PRIMARY KEY(orderId, itemId)
 );
